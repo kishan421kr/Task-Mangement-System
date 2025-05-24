@@ -1,6 +1,7 @@
 import { Link, Outlet, useNavigate } from "react-router-dom"
 
 import "../CSS/AdminDash.css"
+import Footer from "../components/Footer";
 
 const Dashboard=()=>{
   const navigate = useNavigate();
@@ -22,6 +23,7 @@ const Dashboard=()=>{
             <div style={{padding:"20px"}}>
                 <Outlet/>
             </div>
+            <Footer/>
         </div>
     </>
   )
