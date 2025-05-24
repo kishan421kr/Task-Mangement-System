@@ -56,7 +56,7 @@ const Login=()=>{
     }
   return(
     <>
-        <h3 id="MainloginHeading">Task Mangement System</h3>
+        
         <div id="loginMainDiv">
             <div id="loginFormDiv">
                 <h2 id="loginHeading">Login</h2>

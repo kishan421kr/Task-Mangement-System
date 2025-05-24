@@ -1,0 +1,14 @@
+#footer {
+  background: linear-gradient(135deg, #9d50bb, #6e48aa);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+#footer div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer div p {
+  margin: 5px 0;
+}
