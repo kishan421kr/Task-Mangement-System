@@ -6,7 +6,8 @@ import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { Navigate, useNavigate } from "react-router-dom";
-import Footer from "./components/Footer";
+
+import UserFooter from "./components/userFooter";
 const UserHome=()=>{
 
     const [show, setShow] = useState(false);
@@ -96,7 +97,7 @@ const UserHome=()=>{
             </Table>
             
         </div>
-        <Footer/>
+        <UserFooter/>
         <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Changing Task Status</Modal.Title>

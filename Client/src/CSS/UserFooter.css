@@ -1,0 +1,14 @@
+#Userfooter {
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+    color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+#Userfooter div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#Userfooter div p {
+  margin: 5px 0;
+}
