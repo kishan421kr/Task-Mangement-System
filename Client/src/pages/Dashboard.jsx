@@ -12,7 +12,7 @@ const Dashboard=()=>{
             <h3 id="DashHeading" style={{textAlign:"center"}}>Welcome To Admin Dashboard</h3>
             <div id="FirstNav">
               <div>Admin:{name}</div>
-              <button onClick={()=>{localStorage.clear(),navigate("/")}}>Logout</button>
+              <button id="BtnStyle" onClick={()=>{localStorage.clear(),navigate("/")}}>Logout</button>
             </div>
             <div id="secondNav">
                 <Link className="SecondNavLink" to={"addemp"}>ADD Employee</Link>

@@ -123,8 +123,8 @@ const Status=()=>{
 
                                         {key.status}
                                 </td>
-                                <td><button onClick={()=>{handleReAssigmnet(key)}}>Re-assign</button></td>
-                                <td><button onClick={()=>{handleDelete(key._id)}}>Delete</button></td>
+                                <td><button id="BtnStyle" onClick={()=>{handleReAssigmnet(key)}}>Re-assign</button></td>
+                                <td><button id="BtnStyle" onClick={()=>{handleDelete(key._id)}}>Delete</button></td>
                                 </tr>
                             </>
                         )

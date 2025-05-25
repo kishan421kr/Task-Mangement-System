@@ -72,7 +72,7 @@ const ManageEmp=()=>{
                                 <td>{key.EmployeeName}</td>
                                 <td>{key.EmployeeEmail}</td>
                                 <td>{key.EmployeeRole}</td>
-                                <td><button onClick={()=>{handleDelete(key._id)}}>Remove</button></td>
+                                <td><button id="BtnStyle" onClick={()=>{handleDelete(key._id)}}>Remove</button></td>
                             </tr>
                         </>
                     )
